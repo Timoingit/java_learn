@@ -5,27 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//1.请使用java对象描述一个动物园
-//定义动物基类（Animal）
-//        - 属性：名称（name，String类型）。
-//        - 方法：
-//        - 构造方法：初始化动物名称。
-//        - 发出声音方法（makeSound）：在基类中，该方法仅打印“这是一个动物的声音”。
-//定义动物园类（Zoo）
-//        - 属性：动物列表（animals，ArrayList<Animal>类型），用于存储多种动物对象。
-//        - 方法：
-//        - 添加动物方法（addAnimal）：接受一个Animal对象作为参数，将其添加到动物列表中。
-//        - 展示动物声音方法（showAnimalSounds）：遍历动物列表，调用每个动物的makeSound方法发出声音。
-//2.请使用java对象描述当前上课的场景
-//定义类如下：
-//          - 教室类
-//          - 课程类
-//          - 人类
-//          - 教师类
-//          - 学生类
-//3.不借助第三方工具类使用Java实现单链表，提供头插、尾插和遍历打印功能
-
-
 // 动物基类
 class Animal {
     // 姓名属性
